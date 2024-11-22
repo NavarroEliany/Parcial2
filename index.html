@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Hoja de vida, curriculum vitae Eliany Navarro">
+    <meta name="description" content="Sitio web del curriculum de Eliany Navarro">
+    <meta name="keyword" content="CV, MV, Hoja de vida, Curriculum Vitae, Desarrollador Web">
+    <link rel="icon" href="../Img/perfil.png">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <title>Curriculum Vitae - Eliany Navarro</title>
+</head>
+<body>
+    <!-- MENÚ Y VISTA PRINCIPAL-->
+    <div class="container">
+        
+        <img src="../Img/logo.jpg" alt="" width="100px"> 
+       
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburguesa">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <nav>
+          <label for="menu-toggle" class="close-button">&times;</label>
+          <a href="../index.html">Inicio</a>
+          <a href="../html/educacion.html">Educación</a>
+          <a href="../html/habilidades.html">Habilidades</a>
+          <a href="../html/experiencia.html">Experiencia</a>
+          <a href="../html/contacto.html">Contacto</a>
+        </nav><br>
+      </div>
+
+    <header id="inicio">
+        
+    <main>
+        
+        <div class="contenedor">
+            <section class="contenido-header">
+                <section class="textos-header">
+                    <h1>ELIANY NAVARRO</h1>
+                    <div class="titulospro">
+                        <h3><i class="fa-solid fa-circle-check"></i> Ingeniero de Sistemas (e)</h3>
+                        <h3><i class="fa-solid fa-circle-check"></i> BACHILLER TÉCNICO Especialidad de Explotaciones Agropecuarias</h3>
+                        <h3><i class="fa-solid fa-circle-check"></i> Bootcamp de Programación (e)</h3>
+                        <h3><i class="fa-solid fa-circle-check"></i> Desarrollo de Aplicaciones Web (e)</h3>
+                    </div>
+                    <p>Desarrolladora en formación con sólida base en Ingeniería de Sistemas y pasión por la tecnología. 
+                        Experiencia en desarrollo web frontend y backend con Java. 
+                        Busco oportunidades para crear soluciones innovadoras y colaborar en equipos dinámicos.</p>
+                    <a href="../Img/logo.jpg" target="" class="ver">Ver Perfil -VH</a>
+                </section>
+                <div class="profile-container">
+                    <img src="../Img/perfil.png" alt="Foto de perfil">
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/eliany-navarro-7b50a3289/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/NavarroEliany" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+           
+    </main>    
+        
+    </header>
+
+
+     <!-- PIE DE PÁGINA -->
+   <footer>
+
+    <section class="final">
+        <p>&copy; 2024 Eliany Navarro. Todos los derechos reservados.</p>
+    </section>
+    
+   </footer>
+    
+            
+        <script src="https://kit.fontawesome.com/4fc7dbea62.js" crossorigin="anonymous"></script>
+        
+        
+        <script>
+            const menuToggle = document.querySelector('.menu-toggle');
+const nav = document.querySelector('.enlaces-header');
+
+menuToggle.addEventListener('change', () => {
+    nav.classList.toggle('active');
+});
+        </script>
+
+
+    </footer>
+  </body>
+</html>
